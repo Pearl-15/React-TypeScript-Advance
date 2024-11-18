@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <h1>Let's get started!</h1>
-    <Container as={Button}></Container>
+    <Container as={Button} onClick={() => console.log("button has been clicked")}>Click Me </Container>
     </>
   )
 }
